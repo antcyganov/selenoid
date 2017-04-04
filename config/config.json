@@ -1,0 +1,74 @@
+{
+ 	"Browsers": {
+ 		"chrome": {
+ 			"default": "latest",
+ 			"versions": {
+ 				"54.0": {
+ 					"image": "selenoid/chrome",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				},
+ 				"latest": {
+ 					"image": "selenoid/chrome",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				}
+ 			}
+ 		},
+ 		"firefox": {
+ 			"default": "latest",
+ 			"versions": {
+ 				"6.0": {
+ 					"image": "selenoid/firefox",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				},
+ 				"7.0": {
+ 					"image": "selenoid/firefox",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				},
+ 				"8.0": {
+ 					"image": "selenoid/firefox",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				},
+ 				"9.0": {
+ 					"image": "selenoid/firefox",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				},
+ 				"latest": {
+ 					"image": "selenoid/firefox",
+ 					"port": "4444",
+ 					"path": "",
+ 					"tmpfs": {
+ 						"/tmp": "size=512m"
+ 					}
+ 				}
+ 			}
+ 		}
+ 	},
+ 	"ContainerLogs": {
+ 		"Type": "",
+ 		"Config": null
+ 	}
+ }
